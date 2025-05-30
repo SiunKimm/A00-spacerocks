@@ -1,7 +1,13 @@
-# GitHub Codespaces ♥️ Jupyter Notebooks
+# 🚀 space-rock-dl-classifier
 
-Welcome to your shiny new codespace! We've got everything fired up and running for you to explore Python and Jupyter notebooks.
+화성 암석 이미지(Basalt vs Highland)를 분류하는 딥러닝 이미지 분류기.  
+사전학습된 ResNet50 모델을 활용한 전이학습 기반으로 구현되며, 데이터 전처리, 시드 설정, 학습/평가/예측 전체 파이프라인을 포함합니다.
 
-You've got a blank canvas to work on from a git perspective as well. There's a single initial commit with what you're seeing right now - where you go from here is up to you!
+## 🧠 Features
 
-Everything you do here is contained within this one codespace. There is no repository on GitHub yet. If and when you’re ready you can click "Publish Branch" and we’ll create your repository and push up your project. If you were just exploring then and have no further need for this code then you can simply delete your codespace and it's gone forever.
+- ✅ 데이터 로딩 및 이미지 전처리 (224x224 resize + normalization)
+- ✅ 학습/검증 데이터 분할 및 로더 구성 (`SubsetRandomSampler`)
+- ✅ ResNet50 전이학습 (FCL 수정 및 Freeze)
+- ✅ 학습 손실, 검증 손실, 정확도 추적 및 시각화
+- ✅ 모델 저장 및 로딩
+- ✅ 단일 이미지 예측 및 시각화
