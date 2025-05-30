@@ -1,6 +1,9 @@
-# 🌕 space-rock-dl-classifier
+# space-rock-dl-classifier
+
 달에서 수집한 월석 이미지(Basalt vs Highland)를 분류하기 위한 딥러닝 이미지 분류 모델입니다.  
 PyTorch 기반의 사전학습된 ResNet50 모델을 활용하여 전이학습(transfer learning)으로 구현되었으며, 데이터 전처리부터 학습, 평가, 예측까지의 전체 파이프라인을 포함합니다.
+
+---
 
 ## 🧠 주요 기능 (Features)
 - 224x224 크기로 이미지 전처리 (리사이징)
