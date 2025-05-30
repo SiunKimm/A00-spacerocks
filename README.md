@@ -1,6 +1,6 @@
 # 🚀 space-rock-dl-classifier
 
-화성 암석 이미지(Basalt vs Highland)를 분류하는 딥러닝 이미지 분류기.  
+월석 이미지(Basalt vs Highland)를 분류하는 딥러닝 이미지 분류기.  
 사전학습된 ResNet50 모델을 활용한 전이학습 기반으로 구현되며, 데이터 전처리, 시드 설정, 학습/평가/예측 전체 파이프라인을 포함합니다.
 
 ## 🧠 Features
